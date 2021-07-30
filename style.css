@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --logo-img: url("./images/logo.svg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+button {
+  background-color: white;
+  height: 80px;
+  width: 70px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+}
+
+button > i {
+  font-size: 3rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+
+li > a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: black;
+  padding: 10px;
+}
+
+#navbar-container {
+  height: 100vh;
+  width: 25rem;
+  border-right: 1px solid rgb(194, 194, 194);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  background-image: var(--logo-img);
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  width: 30rem;
+  position: absolute;
+  top: 5%;
+  left: -55px;
+}
+
+#social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 10%;
+  height: 250px;
+}
+
+#social > a {
+  font-size: 2.5rem;
+  color: black;
+  padding: 10px;
+}
