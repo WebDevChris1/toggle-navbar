@@ -102,6 +102,7 @@ li > a {
 
   li > a:hover {
     border-bottom: 2px solid greenyellow;
+    padding: 5px 0;
   }
 
   ul {
