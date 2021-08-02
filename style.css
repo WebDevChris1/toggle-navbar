@@ -70,7 +70,7 @@ li > a {
   background-image: var(--logo-img);
   background-position: center;
   background-size: cover;
-  height: 20rem;
+  height: 40rem;
   width: 30rem;
   position: absolute;
   top: 50px;
@@ -89,4 +89,35 @@ li > a {
   font-size: 2.5rem;
   color: black;
   padding: 10px;
+}
+
+@media screen and (max-width: 1500px) {
+  #logo {
+    height: 10rem;
+    width: 10rem;
+  }
+  li > a {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    height: 300px;
+    width: 300px;
+  }
+
+  #social {
+    height: 150px;
+    bottom: 10px;
+  }
+  #social > a {
+    font-size: 1rem;
+  }
+
+  #navbar-container {
+    width: 20rem;
+  }
+
+  button {
+    cursor: pointer;
+  }
 }
